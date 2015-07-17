@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="hls_cropping_strm" xd:componentRef="hls_cropping_strm" xd:initiationInterval="256" xd:clockPeriod="20.000000" xd:sequential="true" xd:hostMachine="64">
+  <xd:arg xd:name="src.data" xd:originalName="src" xd:direction="in" xd:interfaceRef="src" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="src.keep" xd:originalName="src" xd:direction="in" xd:interfaceRef="src" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="src.strb" xd:originalName="src" xd:direction="in" xd:interfaceRef="src" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="src.user" xd:originalName="src" xd:direction="in" xd:interfaceRef="src" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="src.last" xd:originalName="src" xd:direction="in" xd:interfaceRef="src" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="src.id" xd:originalName="src" xd:direction="in" xd:interfaceRef="src" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="src.dest" xd:originalName="src" xd:direction="in" xd:interfaceRef="src" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="dst" xd:originalName="dst" xd:direction="out" xd:interfaceRef="dst_V_V" xd:busTypeRef="axis" xd:dataWidth="16"/>
+  <xd:arg xd:name="*(dst_valid)" xd:originalName="dst_valid" xd:direction="out" xd:interfaceRef="dst_valid" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_vld"/>
+  <xd:arg xd:name="*(sof_sig)" xd:originalName="sof_sig" xd:direction="out" xd:interfaceRef="sof_sig" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_vld"/>
+  <xd:latencyEstimates xd:best-case="125" xd:worst-case="255" xd:average-case="191"/>
+  <xd:resourceEstimates xd:LUT="4430" xd:FF="6115" xd:BRAM="0" xd:DSP="0"/>
+</xd:acceleratorMap>

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4.1 (64-bit)
+# SW Build 1149489 on Thu Feb 19 16:23:09 MST 2015
+# IP Build 1147552 on Wed Feb 18 14:25:16 MST 2015
+# Start of session at: Wed Jul 15 16:47:17 2015
+# Process ID: 8804
+# Log file: C:/Users/marien.CRICKET/Documents/preprocessing/07_02_smart/hls_cropping/hls_cropping/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/marien.CRICKET/Documents/preprocessing/07_02_smart/hls_cropping/hls_cropping/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

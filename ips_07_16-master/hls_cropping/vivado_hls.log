@@ -1,0 +1,22 @@
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'C:/Xilinx/Vivado_HLS/2014.4/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'marien' on host 'cricket' (Windows NT_amd64 version 6.1) on Fri Jul 17 14:23:46 -0400 2015
+            in directory 'C:/Users/marien.CRICKET/Documents/preprocessing/07_16_smart/hls_cropping'
+@I [HLS-10] Opening project 'C:/Users/marien.CRICKET/Documents/preprocessing/07_16_smart/hls_cropping/hls_cropping_vert'.
+@I [HLS-10] Opening solution 'C:/Users/marien.CRICKET/Documents/preprocessing/07_16_smart/hls_cropping/hls_cropping_vert/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 17ns.
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+@I [IMPL-8] Exporting RTL as an IP in IP-XACT.
+
+****** Vivado v2014.4.1 (64-bit)
+  **** SW Build 1149489 on Thu Feb 19 16:23:09 MST 2015
+  **** IP Build 1147552 on Wed Feb 18 14:25:16 MST 2015
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'c:/Xilinx/Vivado/2014.4/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 17 14:23:51 2015...
+@I [LIC-101] Checked in feature [VIVADO_HLS]

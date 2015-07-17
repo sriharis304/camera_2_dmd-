@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="/home/subhagato/Codes/marie_smart/marie_smart.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="15">
+	</WVObjectSize>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vid_data" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vid_data[15:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vid_data[15:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/locked" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/locked</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/locked</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/rst" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/rst</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/rst</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vid_active_video" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vid_active_video</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vid_active_video</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vid_field_id" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vid_field_id</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vid_field_id</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vid_hblank" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vid_hblank</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vid_hblank</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vid_hsync" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vid_hsync</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vid_hsync</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vid_vblank" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vid_vblank</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vid_vblank</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vid_vsync" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vid_vsync</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vid_vsync</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vtg_active_video" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vtg_active_video</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vtg_active_video</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vtg_ce" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vtg_ce</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vtg_ce</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vtg_hblank" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vtg_hblank</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vtg_hblank</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vtg_hsync" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vtg_hsync</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vtg_hsync</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vtg_vblank" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vtg_vblank</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vtg_vblank</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/vtg_vsync" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/vtg_vsync</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/vtg_vsync</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+</wave_config>
+

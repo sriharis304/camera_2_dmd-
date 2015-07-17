@@ -1,0 +1,7 @@
+   Compiling ../../../src/hls_cropping_tb.cpp in debug mode
+../../../src/hls_cropping_tb.cpp:18:12: warning: missing terminating " character [enabled by default]
+../../../src/hls_cropping_tb.cpp:18:5: error: missing terminating " character
+../../../src/hls_cropping_tb.cpp: In function 'int main()':
+../../../src/hls_cropping_tb.cpp:47:5: error: expected primary-expression before 'return'
+make: *** [obj/hls_cropping_tb.o] Error 1
+@E [SIM-1] 'csim_design' failed: compilation error(s).

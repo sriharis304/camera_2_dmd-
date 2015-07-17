@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SCHED-21] The critical path consists of the following:&#xD;&#xA;&#x9;'load' operation ('buff2read_load') on static variable 'buff2read' (0 ns)&#xD;&#xA;&#x9;'icmp' operation ('tmp_7', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:99->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.36 ns)&#xD;&#xA;&#x9;'xor' operation ('sel_tmp1', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:99->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'and' operation ('sel_tmp2', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:71->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'and' operation ('sel_tmp4', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:71->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'and' operation ('sel_tmp5', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:71->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'select' operation ('sel_tmp11', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:71->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'select' operation ('sel_tmp12', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:117->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'select' operation ('counter_rd1_loc', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:71->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'icmp' operation ('tmp_49', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:179->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (2.52 ns)&#xD;&#xA;&#x9;'or' operation ('sel_tmp259_demorgan', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:179->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'xor' operation ('sel_tmp25', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:179->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'and' operation ('sel_tmp26', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:183->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'or' operation ('tmp16', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:197->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'or' operation ('tmp17', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:197->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)&#xD;&#xA;&#x9;'or' operation ('p_buff2read_flag_3', hls_cropping_vert/src/hls_cropping_vert_triple.cpp:197->hls_cropping_vert/src/hls_cropping_vert_triple.cpp:255) (1.37 ns)" projectName="hls_cropping_vert" solutionName="solution1" date="2015-07-17T14:23:31.096-0400" type="Warning"/>
+        <logs message="@W [SCHED-21] Estimated clock period (21.7ns) exceeds the target (target clock period: 17ns, clock uncertainty: 2.13ns, effective delay budget: 14.9ns)." projectName="hls_cropping_vert" solutionName="solution1" date="2015-07-17T14:23:31.089-0400" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false 'RAW' intra dependency for variable 'linebuffer2b_V'." projectName="hls_cropping_vert" solutionName="solution1" date="2015-07-17T14:23:30.755-0400" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false 'RAW' intra dependency for variable 'linebuffer2_V'." projectName="hls_cropping_vert" solutionName="solution1" date="2015-07-17T14:23:30.703-0400" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false 'RAW' intra dependency for variable 'linebuffer1b_V'." projectName="hls_cropping_vert" solutionName="solution1" date="2015-07-17T14:23:30.693-0400" type="Warning"/>
+        <logs message="@W [ANALYSIS-52] Setting false 'RAW' intra dependency for variable 'linebuffer1_V'." projectName="hls_cropping_vert" solutionName="solution1" date="2015-07-17T14:23:30.687-0400" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="hls_cropping.cpp" path="C:\Users\marien.CRICKET\Documents\preprocessing\07_02_smart\hls_cropping\hls_cropping\src\hls_cropping.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="hls_cropping_tb.cpp" path="C:\Users\marien.CRICKET\Documents\preprocessing\07_02_smart\hls_cropping\hls_cropping\src\hls_cropping_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

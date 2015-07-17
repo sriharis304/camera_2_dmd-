@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Checkpoint Version="4" Minor="0">
+	<BUILD_NUMBER Name="1071353"/>
+	<FULL_BUILD Name="SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014"/>
+	<Part Name="xc7z030fbg676-1"/>
+	<Top Name="u_ila_1_CV"/>
+	<DisableAutoIOBuffers Name="1"/>
+	<OutOfContext Name="1"/>
+	<File Type="EDIF" Name="u_ila_1_CV.edf" ModTime="1437066160"/>
+	<File Type="VERILOG_STUB" Name="u_ila_1_CV_stub.v" ModTime="1437066160"/>
+	<File Type="VHDL_STUB" Name="u_ila_1_CV_stub.vhdl" ModTime="1437066160"/>
+	<File Type="INCR" Name="u_ila_1_CV.incr" ModTime="1437066160"/>
+	<File Type="PSR" Name="u_ila_1_CV.psr" ModTime="1437066160"/>
+	<File Type="WDF" Name="u_ila_1_CV.wdf" ModTime="1437066160"/>
+</Checkpoint>
+

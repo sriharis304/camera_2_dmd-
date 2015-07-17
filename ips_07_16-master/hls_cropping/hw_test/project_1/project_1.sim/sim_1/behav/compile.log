@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/hls_cropping/hw_test/project_1/project_1.srcs/sources_1/ipshared/xilinx.com/hls_synchr_strm_v1_0/4dae739d/hdl/vhdl/hls_synchr_strm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity hls_synchr_strm
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/hls_cropping/hw_test/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_hls_synchr_strm_0_1_1/sim/design_1_hls_synchr_strm_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity design_1_hls_synchr_strm_0_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/hls_cropping/hw_test/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity design_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/hls_cropping/hw_test/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity design_1_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/hls_cropping/hw_test/project_1/project_1.srcs/sim_1/new/tb3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb3

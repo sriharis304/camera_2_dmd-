@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Thu Jul 16 12:59:45 2015
+# Process ID: 9138
+# Log file: /home/subhagato/Codes/marie_smart/marie_smart.runs/synth_2/design_1_wrapper.vds
+# Journal file: /home/subhagato/Codes/marie_smart/marie_smart.runs/synth_2/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl

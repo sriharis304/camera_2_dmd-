@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="/home/subhagato/Codes/marie_smart/marie_smart.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="23">
+	</WVObjectSize>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/s_axis_video_tdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tdata[15:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tdata[15:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/s_axis_tuser" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/s_axis_tuser[9:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/s_axis_tuser[9:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/s_axis_tdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/s_axis_tdata[79:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/s_axis_tdata[79:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/m_axis_tuser" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/m_axis_tuser[7:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/m_axis_tuser[7:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/hls_cropping_vert_strm_0/src_valid_V" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/hls_cropping_vert_strm_0/src_valid_V[0:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/hls_cropping_vert_strm_0/src_valid_V[0:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/hls_cropping_vert_strm_0/eol_dst_V" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/hls_cropping_vert_strm_0/eol_dst_V[0:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/hls_cropping_vert_strm_0/eol_dst_V[0:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/hls_cropping_vert_strm_0/sof_src_V" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/hls_cropping_vert_strm_0/sof_src_V[0:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/hls_cropping_vert_strm_0/sof_src_V[0:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/hls_cropping_vert_strm_0/sof_dst_V" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/hls_cropping_vert_strm_0/sof_dst_V[0:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/hls_cropping_vert_strm_0/sof_dst_V[0:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/hls_cropping_vert_strm_0/dst_V" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/hls_cropping_vert_strm_0/dst_V[15:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/hls_cropping_vert_strm_0/dst_V[15:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/hls_cropping_vert_strm_0/src_V_V_TDATA" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/hls_cropping_vert_strm_0/src_V_V_TDATA[15:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/hls_cropping_vert_strm_0/src_V_V_TDATA[15:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/hls_cropping_vert_strm_0/dst_valid_dst_V" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/hls_cropping_vert_strm_0/dst_valid_dst_V[0:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/hls_cropping_vert_strm_0/dst_valid_dst_V[0:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/m_axis_tkeep" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/m_axis_tkeep[7:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/m_axis_tkeep[7:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/m_axis_tdata" type="array" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/m_axis_tdata[63:0]</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/m_axis_tdata[63:0]</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/m_axis_tlast" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/m_axis_tlast</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/m_axis_tlast</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/m_axis_tvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/m_axis_tvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/m_axis_tvalid</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/s_axis_tlast" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/s_axis_tlast</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/s_axis_tlast</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/s_axis_tready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/s_axis_tready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/s_axis_tready</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/axis_dwidth_converter_0/s_axis_tvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/axis_dwidth_converter_0/s_axis_tvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/axis_dwidth_converter_0/s_axis_tvalid</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/s_axis_video_tlast" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tlast</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tlast</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/s_axis_video_tready" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tready</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tready</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/s_axis_video_tuser" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tuser</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tuser</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/s_axis_video_tvalid" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tvalid</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/s_axis_video_tvalid</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="design_1_i/v_axi4s_vid_out_0/wr_error" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">design_1_i/v_axi4s_vid_out_0/wr_error</obj_property>
+		<obj_property name="ObjectShortName">design_1_i/v_axi4s_vid_out_0/wr_error</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+</wave_config>
+

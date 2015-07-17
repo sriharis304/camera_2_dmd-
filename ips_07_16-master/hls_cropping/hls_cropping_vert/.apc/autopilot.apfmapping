@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="hls_cropping_vert_triple.cpp" path="C:\Users\marien.CRICKET\Documents\preprocessing\07_16_smart\hls_cropping\hls_cropping_vert\src\hls_cropping_vert_triple.cpp"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>

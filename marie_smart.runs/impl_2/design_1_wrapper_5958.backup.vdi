@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 16:47:07 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jul 15 18:27:52 2015
+# Process ID: 5456
+# Log file: /home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/design_1_wrapper.vdi
+# Journal file: /home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Command: open_checkpoint /home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/design_1_wrapper.dcp
+INFO: [Netlist 29-17] Analyzing 388 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.4
+Loading clock regions from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/zynq/xc7z030/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/zynq/xc7z030/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/PinFunctions.xml...
+Loading package from /opt/Xilinx/Vivado/2014.4/data/parts/xilinx/zynq/zynq/xc7z030/fbg676/Package.xml
+Loading io standards from /opt/Xilinx/Vivado/2014.4/data/./parts/xilinx/zynq/IOStandards.xml
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper_board.xdc]
+Finished Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper_board.xdc]
+Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/subhagato/Codes/marie_smart/marie_smart.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [/home/subhagato/Codes/marie_smart/marie_smart.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:56]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1652.938 ; gain = 500.516 ; free physical = 8667 ; free virtual = 17042
+Finished Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper_early.xdc]
+Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [/home/subhagato/Codes/smartheadlight_fpga/CameraLinkTest_only_dw_converter/CameraLinkTest.srcs/sources_1/bd/design_1/Cameralink_deca.xdc:230]
+Finished Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper.xdc]
+Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper_late.xdc]
+Finished Parsing XDC File [/home/subhagato/Codes/marie_smart/marie_smart.runs/impl_2/.Xil/Vivado-5456-headlight-pc/dcp/design_1_wrapper_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1673.609 ; gain = 0.000 ; free physical = 8643 ; free virtual = 17017
+Restored from archive | CPU: 0.030000 secs | Memory: 0.015839 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1673.609 ; gain = 0.000 ; free physical = 8643 ; free virtual = 17017
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 13 instances were transformed.
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 12 instances
+  IBUFGDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 1 instances
+
+INFO: [Project 1-484] Checkpoint was created with build 1071353
+open_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1673.609 ; gain = 834.723 ; free physical = 8644 ; free virtual = 17017
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-86] Your Implementation license expires in 21 day(s)
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1680.637 ; gain = 7.020 ; free physical = 8641 ; free virtual = 17014
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/subhagato/Codes/smartheadlight_fpga/CameraLinkToAXI_IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2014.4/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:1.0 for cell dbg_hub_CV.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:5.0 for cell u_ila_0_CV.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:5.0 for cell u_ila_1_CV.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:5.0 for cell u_ila_2_CV.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:5.0 for cell u_ila_3_CV.

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jul 02 15:22:40 2015" VIVADOVERSION="2014.4">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="xilinx.com:zc702:part0:1.1" DEVICE="7z020" NAME="design_1_imp" PACKAGE="clg484" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="0" NAME="start_sig" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_start_sig">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hls_synchr_strm_0" PORT="start_sig"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="dst_V_V_tvalid" SIGIS="undef"/>
+    <PORT DIR="I" NAME="dst_V_V_tready" SIGIS="undef"/>
+    <PORT DIR="O" LEFT="63" NAME="dst_V_V_tdata" RIGHT="0" SIGIS="undef"/>
+    <PORT DIR="I" NAME="src_V_V_tvalid" SIGIS="undef"/>
+    <PORT DIR="O" NAME="src_V_V_tready" SIGIS="undef"/>
+    <PORT DIR="I" LEFT="63" NAME="src_V_V_tdata" RIGHT="0" SIGIS="undef"/>
+    <PORT DIR="I" NAME="ap_rst_n" SIGIS="rst" SIGNAME="External_Ports_ap_rst_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hls_synchr_strm_0" PORT="ap_rst_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="start_sigo_ap_vld" SIGIS="undef" SIGNAME="hls_synchr_strm_0_start_sigo_ap_vld">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hls_synchr_strm_0" PORT="start_sigo_ap_vld"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="ap_clk" SIGIS="clk" SIGNAME="External_Ports_ap_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hls_synchr_strm_0" PORT="ap_clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="start_sigo" RIGHT="0" SIGIS="data" SIGNAME="hls_synchr_strm_0_start_sigo">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="hls_synchr_strm_0" PORT="start_sigo"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <MODULES>
+    <MODULE FULLNAME="/hls_synchr_strm_0" HWVERSION="1.0" INSTANCE="hls_synchr_strm_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="hls_synchr_strm" VLNV="xilinx.com:hls:hls_synchr_strm:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_hls_synchr_strm_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="start_sigo_ap_vld" SIGIS="undef" SIGNAME="hls_synchr_strm_0_start_sigo_ap_vld">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="start_sigo_ap_vld"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="ap_clk" SIGIS="clk" SIGNAME="External_Ports_ap_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ap_clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ap_rst_n" SIGIS="rst" SIGNAME="External_Ports_ap_rst_n">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ap_rst_n"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="src_V_V_TVALID" SIGIS="undef"/>
+        <PORT DIR="O" NAME="src_V_V_TREADY" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="63" NAME="src_V_V_TDATA" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="O" NAME="dst_V_V_TVALID" SIGIS="undef"/>
+        <PORT DIR="I" NAME="dst_V_V_TREADY" SIGIS="undef"/>
+        <PORT DIR="O" LEFT="63" NAME="dst_V_V_TDATA" RIGHT="0" SIGIS="undef"/>
+        <PORT DIR="I" LEFT="0" NAME="start_sig" RIGHT="0" SIGIS="data" SIGNAME="External_Ports_start_sig">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="start_sig"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="start_sigo" RIGHT="0" SIGIS="data" SIGNAME="hls_synchr_strm_0_start_sigo">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="start_sigo"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES>
+        <BUSINTERFACE BUSNAME="External_Interface_src_V_V" NAME="src_V_V" TYPE="TARGET">
+          <PORTMAPS>
+            <PORTMAP PHYSICAL="src_V_V_TVALID"/>
+            <PORTMAP PHYSICAL="src_V_V_TREADY"/>
+            <PORTMAP PHYSICAL="src_V_V_TDATA"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+        <BUSINTERFACE BUSNAME="hls_synchr_strm_0_dst_V_V" NAME="dst_V_V" TYPE="INITIATOR">
+          <PORTMAPS>
+            <PORTMAP PHYSICAL="dst_V_V_TVALID"/>
+            <PORTMAP PHYSICAL="dst_V_V_TREADY"/>
+            <PORTMAP PHYSICAL="dst_V_V_TDATA"/>
+          </PORTMAPS>
+        </BUSINTERFACE>
+      </BUSINTERFACES>
+    </MODULE>
+  </MODULES>
+
+  <REPOSITORIES/>
+
+</EDKSYSTEM>

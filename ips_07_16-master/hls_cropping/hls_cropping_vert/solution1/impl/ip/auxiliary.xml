@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="hls_cropping_vert_strm" xd:componentRef="hls_cropping_vert_strm" xd:initiationInterval="1" xd:clockPeriod="17.000000" xd:sequential="true" xd:hostMachine="64">
+  <xd:arg xd:name="src" xd:originalName="src" xd:direction="in" xd:interfaceRef="src_V_V" xd:busTypeRef="axis" xd:dataWidth="16"/>
+  <xd:arg xd:name="*(dst)" xd:originalName="dst" xd:direction="out" xd:interfaceRef="dst_V" xd:busTypeRef="register" xd:dataWidth="16" xd:handshakeRef="ap_vld"/>
+  <xd:arg xd:name="*(sof_dst)" xd:originalName="sof_dst" xd:direction="out" xd:interfaceRef="sof_dst_V" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_vld"/>
+  <xd:arg xd:name="*(eol_dst)" xd:originalName="eol_dst" xd:direction="out" xd:interfaceRef="eol_dst_V" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_vld"/>
+  <xd:arg xd:name="*(dst_valid_dst)" xd:originalName="dst_valid_dst" xd:direction="out" xd:interfaceRef="dst_valid_dst_V" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_vld"/>
+  <xd:arg xd:name="*(src_valid)" xd:originalName="src_valid" xd:direction="in" xd:interfaceRef="src_valid_V" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="*(sof_src)" xd:originalName="sof_src" xd:direction="in" xd:interfaceRef="sof_src_V" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="*(hsync)" xd:originalName="hsync" xd:direction="out" xd:interfaceRef="hsync_V" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_vld"/>
+  <xd:arg xd:name="*(vsync)" xd:originalName="vsync" xd:direction="out" xd:interfaceRef="vsync_V" xd:busTypeRef="register" xd:dataWidth="1" xd:handshakeRef="ap_vld"/>
+  <xd:latencyEstimates xd:best-case="1" xd:worst-case="1" xd:average-case="1"/>
+  <xd:resourceEstimates xd:LUT="3834" xd:FF="383" xd:BRAM="4" xd:DSP="0"/>
+</xd:acceleratorMap>
